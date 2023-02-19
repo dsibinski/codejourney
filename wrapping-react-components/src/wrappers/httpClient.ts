@@ -43,4 +43,50 @@ class AxiosHttpClient implements IHttpClient {
   }
 }
 
-export const httpClient: IHttpClient = new AxiosHttpClient();
+class FetchHttpClient implements IHttpClient {
+  get<TResponse>(url: string): Promise<TResponse> {
+    return new Promise<TResponse>((resolve, reject) => {
+      fetch(url)
+        .then((response) =>
+          response
+            .json()
+            .then((responseJson) => {
+              resolve(responseJson as TResponse);
+            })
+            .catch((error: Error) => {
+              reject(`Response JSON parsing error: ${error}`);
+            })
+        )
+        .catch((error: Error) => {
+          reject(error);
+        });
+    });
+  }
+
+  post<TResponse>(url: string, data?: object): Promise<TResponse> {
+    return new Promise<TResponse>((resolve, reject) => {
+      fetch(url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      })
+        .then((response) =>
+          response
+            .json()
+            .then((responseJson) => {
+              resolve(responseJson as TResponse);
+            })
+            .catch((error: Error) => {
+              reject(`Response JSON parsing error: ${error}`);
+            })
+        )
+        .catch((error: Error) => {
+          reject(error);
+        });
+    });
+  }
+}
+
+export const httpClient: IHttpClient = new FetchHttpClient();
