@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import { httpClient } from "../wrappers/httpClient";
 import { Product } from "../types/product";
 import { DummyJsonProductsResult } from "../types/dummyJsonProductsResult";
 
@@ -7,10 +7,10 @@ export const ProductsList = () => {
   const [products, setProducts] = useState<Product[] | null>(null);
 
   useEffect(() => {
-    axios
+    httpClient
       .get<DummyJsonProductsResult>("https://dummyjson.com/products")
       .then((result) => {
-        setProducts(result.data.products);
+        setProducts(result.products);
       });
   }, []);
 
