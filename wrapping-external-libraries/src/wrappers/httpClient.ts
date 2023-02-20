@@ -89,4 +89,4 @@ class FetchHttpClient implements IHttpClient {
   }
 }
 
-export const httpClient: IHttpClient = new FetchHttpClient();
+export const httpClient: IHttpClient = new FetchHttpClient(); // you can replace new FetchHttpClient() with new AxiosHttpClient() to use axios instead of fetch
