@@ -1,7 +1,7 @@
-function goToSecretPage() {
-  window.location.href = "secret.html";
+function reloadThePage() {
+  window.location.reload();
 }
 
-function goToHomePage() {
-  window.location.href = "index.html";
-}
+document
+  .getElementById("reload-page-btn")
+  .addEventListener("click", reloadThePage);
