@@ -2,6 +2,7 @@
 node_modules
 build
 dist
+!javascript-bundlers/webpack-app/dist/
 
 # misc
 .DS_Store
