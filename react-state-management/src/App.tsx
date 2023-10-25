@@ -1,10 +1,12 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import { NaiveComponent } from "./components/NaiveComponent";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Welcome to React!</p>
+        <NaiveComponent />
       </header>
     </div>
   );
