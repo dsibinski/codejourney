@@ -1,13 +1,14 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { TheReactWayComponent } from "./components/TheReactWayComponent";
+import { ObjectHolderComponent } from "./components/ObjectHolderComponent";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         {/* <NaiveComponent /> */}
-        <TheReactWayComponent />
+        {/* <TheReactWayComponent /> */}
+        <ObjectHolderComponent />
       </header>
     </div>
   );
