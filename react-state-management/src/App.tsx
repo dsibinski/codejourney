@@ -1,12 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { NaiveComponent } from "./components/NaiveComponent";
+import { TheReactWayComponent } from "./components/TheReactWayComponent";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <NaiveComponent />
+        {/* <NaiveComponent /> */}
+        <TheReactWayComponent />
       </header>
     </div>
   );
