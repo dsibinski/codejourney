@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { ObjectHolderComponent } from "./components/ObjectHolderComponent";
+import { PersonData } from "./components/props/PersonData";
 
 function App() {
   return (
@@ -8,7 +8,8 @@ function App() {
       <header className="App-header">
         {/* <NaiveComponent /> */}
         {/* <TheReactWayComponent /> */}
-        <ObjectHolderComponent />
+        {/* <ObjectHolderComponent /> */}
+        <PersonData />
       </header>
     </div>
   );
