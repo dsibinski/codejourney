@@ -3,7 +3,7 @@ import { Ticket } from "./ticket";
 export class TicketsPriceCalculator {
   calculateTotalTicketsPrice(tickets: Ticket[]): number {
     if (tickets.length === 0) {
-      return 0;
+      return -1;
     }
 
     let totalPrice = tickets.reduce((sum, ticket) => sum + ticket.price, 0);
