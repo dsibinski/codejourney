@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4d77933-8b7a-454b-96f4-f59360095d9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Db/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EF8Sentinel.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EF8Sentinel.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/StatusType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/UserAccount.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SentinelValueTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../A.EnumHasDefaultValueA/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EF8Sentinel/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../A.EnumHasDefaultValueA/.idea/.idea.EF8Sentinel/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EF8Sentinel/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../A.EnumHasDefaultValueA/.idea/.idea.EF8Sentinel/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EF8Sentinel/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../A.EnumHasDefaultValueA/.idea/.idea.EF8Sentinel/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EF8Sentinel/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../A.EnumHasDefaultValueA/.idea/.idea.EF8Sentinel/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EF8Sentinel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../A.EnumHasDefaultValueA/.idea/.idea.EF8Sentinel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Db/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../A.EnumHasDefaultValue/Db/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EF8Sentinel.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../A.EnumHasDefaultValueA/A.EnumHasDefaultValueA.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EF8Sentinel.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../A.EnumHasDefaultValueA/EF8Sentinel.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EF8Sentinel.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/../A.EnumHasDefaultValueA/EF8Sentinel.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/StatusType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../A.EnumHasDefaultValue/Models/StatusType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/UserAccount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SentinelValueTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../A.EnumHasDefaultValue/SentinelValueTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/../A.EnumHasDefaultValue/global.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +26,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../A.EnumHasDefaultValue/Db/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../A.EnumHasDefaultValue/Models/StatusType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../A.EnumHasDefaultValue/Models/UserAccount.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../A.EnumHasDefaultValue/SentinelValueTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../A.EnumHasDefaultValue/global.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2trIDiLAAN1hwgsJWjzybXqfGQs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,13 +51,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "e6624289-912d-40db-8724-7515087338e8.executor": "Debug",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741103649316</updated>
-      <workItem from="1741103650594" duration="401000" />
+      <workItem from="1741103650594" duration="1640000" />
+      <workItem from="1741105327281" duration="329000" />
     </task>
     <servers />
   </component>
@@ -64,25 +79,9 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/SentinelValueTests.cs</url>
-          <line>10</line>
-          <properties documentPath="C:\DEV\CJ\codejourney\entity-framework-8-sentinel\EF8Sentinel\SentinelValueTests.cs" containingFunctionPresentation="Method 'DefaultValue_NotUsed_WhenEnumHasNoZero'">
-            <startOffsets>
-              <option value="189" />
-            </startOffsets>
-            <endOffsets>
-              <option value="228" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
